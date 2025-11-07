@@ -1,8 +1,10 @@
 name: Collaborative Workflow
+
 on:
   push:
     branches:
       - main
+
 jobs:
   update-html-and-readme:
     runs-on: ubuntu-latest
